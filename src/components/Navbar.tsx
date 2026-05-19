@@ -34,7 +34,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-3 font-display text-lg font-bold tracking-tight text-white"
         >
-          <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-sm">A</div>
+          <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-sm">AK</div>
           <span>ABI KAMAL</span>
         </motion.a>
 

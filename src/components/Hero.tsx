@@ -17,7 +17,7 @@ export default function Hero() {
             <span className="text-indigo-400">Experiences.</span>
           </h1>
           <p className="text-slate-400 max-w-sm text-sm leading-relaxed">
-            Abi Kamal — a Frontend developer and UI/UX enthusiast focused on building performant, aesthetic, and user-centric web applications.
+            Abi Kamal  a Frontend developer and UI/UX enthusiast focused on building performant, aesthetic, and user-centric web applications.
           </p>
         </motion.div>
 
