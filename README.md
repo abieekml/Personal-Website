@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🌐 Personal Portfolio Website - Abi Kamal
 
-# Run and deploy your AI Studio app
+Selamat datang ke repositori kod bagi laman web portfolio peribadi saya. Laman web ini dibina menggunakan teknologi web moden dengan reka bentuk berasaskan struktur **Bento Grid Layout** yang responsif, minimalis, dan estetik.
 
-This contains everything you need to run your app locally.
+🚀 **Live Website:** [https://abikamal.netlify.app/]
 
-View your app in AI Studio: https://ai.studio/apps/714c44be-a8fd-4b5c-8a23-1171e8a6b4af
+---
 
-## Run Locally
+## 👤 Mengenai Saya
 
-**Prerequisites:**  Node.js
+Saya merupakan seorang mahasiswa jurusan **Sistem Informasi** di Jakarta yang mempunyai minat mendalam dalam pembangunan web terutamanya dalam komponen *Frontend Development* serta rekaan antaramuka (UI/UX). Laman web ini berfungsi sebagai platform digital untuk memaparkan kepakaran, senarai projek yang telah disiapkan, serta cara untuk menghubungi saya untuk sebarang kolaborasi.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Stack Teknologi
+
+Laman web ini dibangunkan menggunakan beberapa teknologi utama berikut:
+
+- **Framework & Library:** React (Vite)
+- **Bahasa Pengaturcaraan:** TypeScript, JavaScript (ES6+)
+- **Penggayaan (Styling):** Tailwind CSS v4 (menggunakan `@import "tailwindcss"` dan konfigurasi `@theme`)
+- **Animasi:** Motion (Framer Motion)
+- **Ikonografi:** Lucide React
+- **Alatan Pembangunan:** Git, GitHub, VS Code
+
+---
+
+## 📁 Struktur Folder Utama
+```text
+├── src/
+│   ├── components/
+│   │   ├── About.tsx      # Seksyen profail ringkas & maklumat akademik
+│   │   ├── Contact.tsx    # Borang pautan kolaborasi & media sosial
+│   │   ├── Footer.tsx     # Hak cipta fail footer
+│   │   ├── Hero.tsx       # Bahagian pengenalan utama (Header intro)
+│   │   ├── Navbar.tsx     # Menu navigasi responsif dengan kesan kaca (glassmorphism)
+│   │   ├── Projects.tsx   # Grid projek beserta overlay paparan Case Study
+│   │   └── Skills.tsx     # Kad kepakaran teknologi (Expertise grid)
+│   ├── App.tsx            # Komponen induk utama aplikasi
+│   ├── index.css          # Tetapan font custom (Inter, Space Grotesk) & konfigurasi Tailwind
+│   └── main.tsx           # Titik permulaan render aplikasi DOM
+├── index.html             # Struktur asas HTML5
+├── package.json           # Senarai dependencies projek
+└── vite.config.ts         # Konfigurasi pembina aplikasi Vite
