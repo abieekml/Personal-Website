@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Code2, User, Briefcase, Cpu, Mail, Menu, X, BookOpen } from 'lucide-react';
+import { User, Briefcase, Cpu, Mail, Menu, X, Calendar, Sparkles, Award } from 'lucide-react';
 
 const navItems = [
   { name: 'About', href: '#about', icon: User },
   { name: 'Projects', href: '#projects', icon: Briefcase },
   { name: 'Skills', href: '#skills', icon: Cpu },
+  { name: 'Certificates', href: '#certificates', icon: Award },
+  { name: 'Timeline', href: '#timeline', icon: Calendar },
+  { name: 'Sandbox', href: '#ai-sandbox', icon: Sparkles },
   { name: 'Contact', href: '#contact', icon: Mail },
 ];
 
@@ -34,7 +37,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-3 font-display text-lg font-bold tracking-tight text-white"
         >
-          <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-sm">AK</div>
+          <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-sm">A</div>
           <span>ABI KAMAL</span>
         </motion.a>
 
